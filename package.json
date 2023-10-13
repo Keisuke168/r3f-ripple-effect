@@ -23,6 +23,7 @@
     "eslint": "^8",
     "eslint-config-next": "13.5.4",
     "postcss": "^8",
+    "serve": "^14.2.1",
     "tailwindcss": "^3"
   }
 }
