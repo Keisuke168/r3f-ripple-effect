@@ -7,7 +7,7 @@ export default function ImagePlane() {
     return (
         <>
             {textures.map((texture, index) => (
-                <Plane args={[3, 3]} position={[index * 4 - 4, 0, 0]} scale={1}>
+                <Plane key={index} args={[3, 3]} position={[index * 4 - 4, 0, 0]} scale={1}>
                     <meshBasicMaterial map={texture} transparent />
                 </Plane>
             ))} 
