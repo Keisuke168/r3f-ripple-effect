@@ -1,0 +1,27 @@
+{
+  "name": "r3f-ripple-effect",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.11.2",
+    "@react-three/drei": "^9.88.2",
+    "@react-three/fiber": "^8.14.5",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
