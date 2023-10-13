@@ -8,7 +8,7 @@ import RippleRenderer from "./ripple";
 
 export default function RipplePassNew (){
     const shaderRef = useRef();
-    const rippleTexture = useTexture("/textures/ripple.png");
+    const rippleTexture = useTexture("/ripple.png");
     const effect = useMemo(() => new RippleRenderer(rippleTexture), [rippleTexture]);
 
 	const shader = useMemo(() => {

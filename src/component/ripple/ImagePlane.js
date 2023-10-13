@@ -1,7 +1,7 @@
 import { useTexture, Plane } from "@react-three/drei";
 
 export default function ImagePlane() {
-    const path = (name) => `/textures/${name}.png`;
+    const path = (name) => `/${name}.png`;
     const textures = useTexture([path('thum1'), path('thum2'), path('thum3')]);
 
     return (
